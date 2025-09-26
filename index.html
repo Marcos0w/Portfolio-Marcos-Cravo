@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Marcos <span>Cravo</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#Início">Início</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#Sobre">Sobre</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#Habilidades">Habilidades</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Serviços">Serviços</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#Contato">Contato</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#Início">Início</a>
+                <a href="#Sobre">Sobre</a>
+                <a href="#Habilidades">Habilidades</a>
+                <a href="#Serviços">Serviços</a>
+                <a href="#Contato">Contato</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>  
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Olá, eu sou o <span>Marcos</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">Eu sou um<span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Sou estudante de Análise e Desenvolvimento de Sistemas e tenho interesse em áreas como desenvolvimento web, computação em nuvem e análise de dados.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/marcos-cravo-0b7b77266/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Marcos0w" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+                  <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="Currículo.pdf" download>
+                    <button>Download CV</button>
+                    </a>
+                  </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="lin2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- SOBRE -->
+<section id="Sobre">
+ 
+  <div class="main-container">
+    <div class="content" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Sobre <span>mim</span></h1>
+      <div class="about-container">
+        <div class="about-text" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+          <p>Olá! Eu sou o Marcos Cravo, sou estudante de Análise e Desenvolvimento de Sistemas. Atualmente estou no 4º semestre.</p>
+
+          <p>Durante minha jornada acadêmica, aprofundei conhecimentos em desenvolvimento front-end com HTML, CSS e JavaScript. Além disso, me especializei em computação em nuvem, especialmente AWS, e em análise de dados utilizando Power BI e SQL.</p>
+
+          <p>Atualmente estou buscando uma vaga na área de TI como Estagiário/Junior, onde eu possa contribuir com soluções escaláveis e de alta performance. Meu objetivo é transformar ideias em aplicações reais que impactem positivamente a vida das pessoas e dos negócios.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="Habilidades">
+  
+  <div class="main-container">
+    <div class="content" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Minhas <span>Habilidades</span></h1>
+      <div class="skills">
+        <span class="skill">HTML & CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">Cloud Computing</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">AWS</span>
+        <span class="skill">SQL & NoSQL</span>
+        <span class="skill">Power BI</span>
+        <span class="skill">Análise de Dados</span>
+        <span class="skill">Pacote Office</span>
+        <span class="skill">Docker</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="Serviços">
+  
+  <div class="main-container">
+    <div class="content" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Meus <span>Serviços</span></h1>
+      <div class="services">
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites modernos, responsivos e otimizados para performance.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-cloud"></i>
+          <h3>Infraestrutura em Nuvem</h3>
+          <p>Implantação e gerenciamento de ambientes em AWS.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-chart-line"></i>
+          <h3>Análise de Dados</h3>
+          <p>Tratamento e visualização de dados para insights estratégicos utilizando ferramentas como Python e Power BI.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-computer"></i>
+          <h3>Desenvolvimento de Sistemas e Software</h3>
+          <p>Implementação de soluções personalizadas para atender às necessidades do cliente.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="Contato">
+
+  <div class="main-container">
+    <div class="content" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Entre em <span>Contato</span></h1>
+
+      <div class="contact-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:marcoscravocosta@gmail.com">marcoscravocosta@gmail.com</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+5515999999999">+55 (15) 99157-8292</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0,});
+    </script>
+    <script src="script.js"></script>
+
+
+
