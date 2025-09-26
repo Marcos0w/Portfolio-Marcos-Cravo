@@ -189,8 +189,8 @@ section{
 }
 
 .main-container .image{
-    width: 600px;
-    height: 70vh;
+    width: 380px;
+    height: 50vh;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px rgba(39, 124, 221, 1);
@@ -383,4 +383,5 @@ section{
     background-size: cover;
    background-attachment: fixed;
 }
+
 
